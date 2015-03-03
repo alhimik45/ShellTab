@@ -1,0 +1,6 @@
+{:name "ShellTab"
+ :version "0.0.1"
+ :author "Alexey Kolpakov"
+ :source "https://github.com/alhimik45/ShellTab"
+ :desc "Shell in tab"
+ :behaviors "shell_tab.behaviors"}

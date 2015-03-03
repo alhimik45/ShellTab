@@ -1,0 +1,4 @@
+[
+ [:app :lt.objs.plugins/load-js "shell_tab_compiled.js"]
+ [:shell-tab.hello :lt.plugins.shell-tab/on-close-destroy]
+ ]
