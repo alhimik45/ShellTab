@@ -39,4 +39,6 @@
 (cmd/command {:command ::run-new-shell
               :desc "shell-tab: Run new shell"
               :exec (fn []
-                      (tabs/add-or-focus! (object/create ::shell-tab.shell)))})
+                      (let [shell (object/create ::shell-tab.shell)]
+                        (tabs/add-or-focus! shell)
+                        (dom/focus  (object/->content shell))))})
